@@ -1,0 +1,22 @@
+{
+    "company_site_urls": 
+        {
+            "main_page": "https://sperasoft.com/",
+            "what_we_do_page": "https://sperasoft.com/whatwedo/",
+            "solutions_page": "https://sperasoft.com/solutions/",
+            "games_page": "https://sperasoft.com/games/",
+            "about_page": "https://sperasoft.com/about/",
+            "news_page": "https://sperasoft.com/news/",
+            "careers_page": "https://sperasoft.com/career/",
+            "bootcamps_page": "https://sperasoft.com/career/bootcamp/",
+            "test_article_page": "https://sperasoft.com/news/2023/06/next-part-payday-franchise-developed-sperasoft-contributions/"
+        },
+
+    "social_media_company_links":
+        {
+            "facebook": "https://www.facebook.com/Sperasoft/",
+            "twitter": "https://twitter.com/i/flow/login?redirect_after_login=%2FSperasoft",
+            "instagram": "https://www.instagram.com/sperasoft/",
+            "linkedin": "https://www.linkedin.com/company/sperasoft"
+        }
+}
