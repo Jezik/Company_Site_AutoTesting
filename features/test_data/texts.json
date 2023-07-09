@@ -1,0 +1,12 @@
+{
+    "site_texts":
+        {
+            "top_header_whatwedo": "Our Competencies",
+            "sub_top_header_whatwedo": "We have an unmatched capability to deliver games, its components and middleware",
+            "game_dev_description_first": "Game Development is our core competency.  We collaborate closely with our partners, assisting them throughout the whole process of developing high quality AAA titles.",
+            "game_dev_description_second": "We offer full product (SKU) and co-development services using our full spectrum of in house production talent, experience, and ideas to deliver our partners\u2019 games on time, within budget and at the highest quality possible.",
+            "game_porting_description": "Our broad expertise in game development across multiple platforms gives us the experience and insight to provide cross-platform porting and adaptation services.  Big or small, single or multiple platforms are not a problem.  We will work with our clients to ensure the best adaptation possible.",
+            "engineering_description": "Sperasoft offers a wide spectrum of engineering and QA competencies to handle production needs throughout all development stages of a project.  Our teams have a wide range of expertise in engine customization, tools development, middleware development, back end technologies, and QA/testing.",
+            "creative_description": "Our creative teams are built upon some of the best creative talent the industry has to offer.  Our art and animation teams deliver high-quality 3D art, concept art, animation, rigging, and UI."
+        } 
+}

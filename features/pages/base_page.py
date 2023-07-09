@@ -73,3 +73,7 @@ class BasePage():
     def get_list_length(self, locator):
         result_list = self.get_elem_list(locator)
         return len(result_list)
+    
+
+    def get_elem_text(self, locator):
+        return self.driver.find_element(*locator).text

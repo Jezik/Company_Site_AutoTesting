@@ -210,3 +210,4 @@ def step_impl(context):
 @then("User can see appropriate list of partners")
 def step_impl(context):
     assert MainPage(context).get_list_length(MainPageLocators.PARTNERS_LIST) == 14
+    #TODO: assert real images
