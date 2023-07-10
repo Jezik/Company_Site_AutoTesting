@@ -16,7 +16,7 @@ def step_impl(context):
     assert MainPage(context).get_current_url() == JSONParser().get_test_page_url("main")
 
 
-@then("The company logo should be displayed correctly")
+@then("The company logo is shown")
 def step_impl(context):
     assert MainPage(context).is_element_exists(MainPageLocators.COMPANY_LOGO) == True
 

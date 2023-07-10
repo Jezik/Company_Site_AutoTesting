@@ -10,11 +10,6 @@ def step_impl(context):
     WhatWeDo(context).open_url()
 
 
-@then("The company logo is shown")
-def step_impl(context):
-    assert WhatWeDo(context).is_element_exists(WhatWeDoLocators.COMPANY_LOGO) == True
-
-
 @then("The header is shown with a correct text")
 def step_impl(context):
     assert  WhatWeDo(context).get_elem_text(WhatWeDoLocators.TOP_HEADER).lower() == JSONParser().get_required_text("top_whatwedo").lower()

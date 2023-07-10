@@ -84,6 +84,24 @@ class JSONParser():
                 final_text = data["site_texts"]["engineering_description"]
             case "creative":
                 final_text = data["site_texts"]["creative_description"]
+            case "solutions_head":
+                final_text = data["site_texts"]["solutions_header"]
+            case "solutions_subh":
+                final_text = data["site_texts"]["solutions_sub_header"]
+            case "live_ser":
+                final_text = data["site_texts"]["live_services_description"]
+            case "noc":
+                final_text = data["site_texts"]["noc_description"]
+            case "e_commerce":
+                final_text = data["site_texts"]["e_commerce_description"]
+            case "dev_ops_first":
+                final_text = data["site_texts"]["devops_description_first"]
+            case "dev_ops_second":
+                final_text = data["site_texts"]["devops_description_second"]
+            case "qe_first":
+                final_text = data["site_texts"]["qe_description_first"]
+            case "qe_second":
+                final_text = data["site_texts"]["qe_description_second"]
 
         return final_text
     
