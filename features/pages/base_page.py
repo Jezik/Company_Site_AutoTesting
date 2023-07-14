@@ -3,6 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.ui import Select
 
 
 class BasePage():
@@ -77,3 +78,9 @@ class BasePage():
 
     def get_elem_text(self, locator):
         return self.driver.find_element(*locator).text
+
+
+    def select_dropdown_item_by_text(self, locator, visible_text):
+        drop = Select(self.driver.find_element(*locator))
+        drop.select_by_visible_text(visible_text)
+        

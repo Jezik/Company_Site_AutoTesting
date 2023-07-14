@@ -16,6 +16,8 @@
             "devops_description_first": "Our DevOps solution deploys the tools to automate the delivery pipeline which increases efficiency, reduces costs, and facilitates continuous integration and development.",
             "devops_description_second": "We provide ongoing management of the delivery pipeline, change management, new infrastructure + server setup, performance optimization and CI.",
             "qe_description_first": "We provide Quality Engineering (QE) services for hi-load & hi-scale software, adaptive solutions for digital platforms and integrate testing components to remove the associated overhead.",
-            "qe_description_second": "We\u2019ve rethought classic QA into a QE streamlined service platform that adapts to the scale and nature of the environment and ensures continued maintenance of your business as it evolves."
+            "qe_description_second": "We\u2019ve rethought classic QA into a QE streamlined service platform that adapts to the scale and nature of the environment and ensures continued maintenance of your business as it evolves.",
+            "jobs_header_part1": "Join",
+            "jobs_header_part2": "#sperasoft"
         } 
 }

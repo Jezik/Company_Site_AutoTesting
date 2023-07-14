@@ -43,6 +43,8 @@ class JSONParser():
                 page_url = data["company_site_urls"]["test_article_page_2"]
             case "portfolio":
                 page_url = data["company_site_urls"]["portfolio_page"]
+            case "job":
+                page_url = data["company_site_urls"]["test_job_page"]
         return page_url
     
 
@@ -104,6 +106,10 @@ class JSONParser():
                 final_text = data["site_texts"]["qe_description_first"]
             case "qe_second":
                 final_text = data["site_texts"]["qe_description_second"]
+            case "jobs_1":
+                final_text = data["site_texts"]["jobs_header_part1"]
+            case "jobs_2":
+                final_text = data["site_texts"]["jobs_header_part2"]
 
         return final_text
     
