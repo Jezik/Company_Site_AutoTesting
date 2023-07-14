@@ -39,6 +39,8 @@ class JSONParser():
                 page_url = data["company_site_urls"]["bootcamps_page"]
             case "article":
                 page_url = data["company_site_urls"]["test_article_page"]
+            case "article2":
+                page_url = data["company_site_urls"]["test_article_page_2"]
             case "portfolio":
                 page_url = data["company_site_urls"]["portfolio_page"]
         return page_url

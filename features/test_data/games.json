@@ -1,0 +1,37 @@
+{
+    "top_games": 
+        [
+            {
+                "title": "Call of Duty: Modern Warfare II",
+                "studio": "Activision"
+            },
+            {
+                "title": "Dead Space",
+                "studio": "EA Motive Studio"
+            },
+            {
+                "title": "Assassin's Creed Valhalla",
+                "studio": "Ubisoft"
+            },
+            {
+                "title": "Saints Row",
+                "studio": "Deep Silver Volition"
+            },
+            {
+                "title": "Star Atlas",
+                "studio": "Automata"
+            },
+            {
+                "title": "RAINBOW SIX SIEGE",
+                "studio": "Ubisoft"
+            },
+            {
+                "title": "FIFA 2023",
+                "studio": "Electronic Arts"
+            },
+            {
+                "title": "Battlefield 2042",
+                "studio": "DICE / Electronic Arts"
+            }
+        ]
+}
