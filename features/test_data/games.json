@@ -33,5 +33,25 @@
                 "title": "Battlefield 2042",
                 "studio": "DICE / Electronic Arts"
             }
-        ]
+        ],
+
+    "action_games":
+        [
+            {
+                "title": "Call of Duty: Modern Warfare II",
+                "studio": "Activision"
+            },
+            {
+                "title": "Anthem",
+                "studio": "BioWare"
+            },
+            {
+                "title": "Bulletstorm: Full Clip Edition",
+                "studio": "People Can Fly / Gearbox Publishing"
+            },
+            {
+                "title": "Assassin's Creed Odyssey",
+                "studio": "Ubisoft"
+            }
+        ]    
 }

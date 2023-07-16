@@ -102,12 +102,21 @@ def step_impl(context):
 @then("The correct list of certifications is shown")
 def step_impl(context):
     assert WhatWeDo(context).is_element_exists(WhatWeDoLocators.PS5_CERT) == True
+    assert WhatWeDo(context).is_image_loaded(WhatWeDoLocators.PS5_CERT) == True
     assert WhatWeDo(context).is_element_exists(WhatWeDoLocators.STADIA_CERT) == True
+    assert WhatWeDo(context).is_image_loaded(WhatWeDoLocators.STADIA_CERT) == True
     assert WhatWeDo(context).is_element_exists(WhatWeDoLocators.XBOX_X_CERT) == True
+    assert WhatWeDo(context).is_image_loaded(WhatWeDoLocators.XBOX_X_CERT) == True
     assert WhatWeDo(context).is_element_exists(WhatWeDoLocators.NINTENDO_CERT) == True
+    assert WhatWeDo(context).is_image_loaded(WhatWeDoLocators.NINTENDO_CERT) == True
     assert WhatWeDo(context).is_element_exists(WhatWeDoLocators.PS4_CERT) == True
+    assert WhatWeDo(context).is_image_loaded(WhatWeDoLocators.PS4_CERT) == True
     assert WhatWeDo(context).is_element_exists(WhatWeDoLocators.XBOX_CERT) == True
+    assert WhatWeDo(context).is_image_loaded(WhatWeDoLocators.XBOX_CERT) == True
     assert WhatWeDo(context).is_element_exists(WhatWeDoLocators.ANDROID_CERT) == True
+    assert WhatWeDo(context).is_image_loaded(WhatWeDoLocators.ANDROID_CERT) == True
     assert WhatWeDo(context).is_element_exists(WhatWeDoLocators.IOS_CERT) == True
+    assert WhatWeDo(context).is_image_loaded(WhatWeDoLocators.IOS_CERT) == True
     assert WhatWeDo(context).is_element_exists(WhatWeDoLocators.PS3_CERT) == True
+    assert WhatWeDo(context).is_image_loaded(WhatWeDoLocators.PS3_CERT) == True
     

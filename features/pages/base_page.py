@@ -1,6 +1,5 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
@@ -31,6 +30,14 @@ class BasePage():
         except NoSuchElementException:
             return False
         return True
+    
+
+    def is_image_loaded(self, locator):
+        image = self.driver.find_element(*locator)
+        result = self.driver.execute_script("return arguments[0].complete "
+                                    + "&& typeof arguments[0].naturalWidth != \"undefined\" "
+                                    + "&& arguments[0].naturalWidth > 0", image)
+        return result
     
 
     def scroll_to_element(self, locator):

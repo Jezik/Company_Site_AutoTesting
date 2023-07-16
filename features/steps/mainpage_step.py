@@ -18,7 +18,9 @@ def step_impl(context):
 
 @then("The company logo is shown")
 def step_impl(context):
-    assert MainPage(context).is_element_exists(MainPageLocators.COMPANY_LOGO) == True
+    main_page = MainPage(context)
+    assert main_page.is_element_exists(MainPageLocators.COMPANY_LOGO) == True
+    assert main_page.is_image_loaded(MainPageLocators.COMPANY_LOGO) == True
 
 
 @when("User scrolls down to Job opportunity section")

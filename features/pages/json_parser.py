@@ -13,6 +13,11 @@ class JSONParser():
         FILE = "texts.json"
         FILE_TO_PARSE = self.WORKING_DIR + "\\features\\test_data\\" + FILE
         return FILE_TO_PARSE
+    
+    def get_games_json_path(self):
+        FILE = "games.json"
+        FILE_TO_PARSE = self.WORKING_DIR + "\\features\\test_data\\" + FILE
+        return FILE_TO_PARSE
 
     def get_test_page_url(self, pattern: str) -> str:
         page_url = ""
@@ -45,6 +50,8 @@ class JSONParser():
                 page_url = data["company_site_urls"]["portfolio_page"]
             case "job":
                 page_url = data["company_site_urls"]["test_job_page"]
+            case "ceo":
+                page_url = data["company_site_urls"]["executives_page"]
         return page_url
     
 
@@ -110,6 +117,30 @@ class JSONParser():
                 final_text = data["site_texts"]["jobs_header_part1"]
             case "jobs_2":
                 final_text = data["site_texts"]["jobs_header_part2"]
+            case "world-class":
+                final_text = data["site_texts"]["world_class_description"]
+            case "executives":
+                final_text = data["site_texts"]["executives_header"]
 
         return final_text
+    
+
+    def get_top_game_name_studio(self,index):
+        file = open(self.get_games_json_path())
+        data = json.load(file)
+        file.close()
+
+        name = data["top_games"][index]["title"]
+        studio = data["top_games"][index]["studio"]
+        return (name, studio)
+    
+
+    def get_action_game_name_studio(self, index):
+        file = open(self.get_games_json_path())
+        data = json.load(file)
+        file.close()
+
+        name = data["action_games"][index]["title"]
+        studio = data["action_games"][index]["studio"]
+        return (name, studio)
     
