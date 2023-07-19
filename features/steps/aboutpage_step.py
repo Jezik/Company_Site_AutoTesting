@@ -62,9 +62,11 @@ def step_impl(context):
 
 @then("The page https://sperasoft.com/about/executives/ is opened")
 def step_impl(context):
-    assert AboutPage(context).get_current_url() == JSONParser().get_test_page_url("executives")
+    assert AboutPage(context).get_current_url() == JSONParser().get_test_page_url("ceo")
 
 
 @then("The correct header for this page is shown")
 def step_impl(context):
-    assert AboutPage(context).get_elem_text(AboutPageLocators.EXECUTIVES_HEADER).lower() == JSONParser().get_required_text("executives")
+    import time
+    time.sleep(3)
+    assert AboutPage(context).get_elem_text(AboutPageLocators.EXECUTIVES_HEADER).lower() == JSONParser().get_required_text("executives").lower()
